@@ -27,8 +27,6 @@ body {
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
-
-    outline: 2px solid tomato;
 }
 
 /* Main nav */
@@ -475,6 +473,7 @@ p {
 
 .flex-footer {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer-list {
