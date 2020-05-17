@@ -341,11 +341,10 @@ body {
 }
 
 .customer-list .picture {
-    display: block;
-    padding: 21px 65px;
+    /* display: block;
+    padding: 23px 43px; */
     text-align: center;
 }
-
 .customer-list .item {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -474,10 +473,11 @@ p {
 .flex-footer {
     display: flex;
     justify-content: space-between;
+    align-content: center;
 }
 
 .footer-list {
-
+    padding-top: 48px;
 }
 
 .logo-footer {
@@ -491,6 +491,8 @@ p {
 }
 
 .address {
+    margin-top: 10px;
+    margin-bottom: 28px;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -499,7 +501,14 @@ p {
 }
 
 .contacts {
+    margin-top: 9px;
     color: var(--footer-text-color);
+}
+
+/* Invitation */
+.main-invitation {
+    display: block;
+    padding-top: 56px;
 }
 
 .invitation {
@@ -510,7 +519,22 @@ p {
     text-transform: uppercase;
 }
 
+.invitation-list {
+    margin-top: 21px;
+}
+
+/* Signup */
+.signup {
+    padding-top: 56px;
+}
+
+.signup .button {
+    margin-left: 63px;
+}
+
 .copyright {
+    padding-top: 18px;
+    padding-bottom: 21px;
     font-weight: normal;
     font-size: 12px;
     line-height: 2;
