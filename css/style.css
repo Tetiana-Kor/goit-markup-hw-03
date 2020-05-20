@@ -466,14 +466,15 @@ p {
 
 /* Footer */
 .footer {
+    height: 253px;
     color: var(--primary-white-color);
     background-color: #2F303A;
+    padding-bottom: 28px;
 }
 
 .flex-footer {
     display: flex;
-    justify-content: space-between;
-    align-content: center;
+    align-items: baseline;
 }
 
 .footer-list {
@@ -491,50 +492,53 @@ p {
 }
 
 .address {
+    display: flex;
+    flex-direction: column;
     margin-top: 10px;
     margin-bottom: 28px;
+    margin-right: 69px;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
+    text-decoration: none;
 }
 
-.contacts {
-    margin-top: 9px;
+.contact {
+    margin-bottom: 10px;
+}
+
+.address .link {
+
+    text-decoration: none;
     color: var(--footer-text-color);
 }
 
 /* Invitation */
 .main-invitation {
     display: block;
-    padding-top: 56px;
+    margin-right: 94px;
 }
 
 .invitation {
+    display: block;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 21px;
 }
 
 .invitation-list {
-    margin-top: 21px;
-}
-
-/* Signup */
-.signup {
-    padding-top: 56px;
-}
-
-.signup .button {
-    margin-left: 63px;
+    display: flex;
 }
 
 .copyright {
     padding-top: 18px;
-    padding-bottom: 21px;
+    margin-bottom: 21px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     font-weight: normal;
     font-size: 12px;
     line-height: 2;
