@@ -362,6 +362,12 @@ img {
 .customer-list .picture {
     text-align: center;
 }
+
+.customer-list .item:hover,
+.customer-list .item:focus {
+    background-color: var(--accent-color);
+}
+
 .customer-list .item {
     display: flex;
     border: 1px solid #AFB1B8;
