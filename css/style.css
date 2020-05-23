@@ -497,10 +497,9 @@ p {
 
 /* Footer */
 .footer {
-    height: 253px;
+    /* height: 253px; */
     color: var(--primary-white-color);
     background-color: #2F303A;
-    padding-bottom: 28px;
 }
 
 .flex-footer {
@@ -534,7 +533,7 @@ p {
 }
 
 .contact {
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 }
 
 .address .link:not(:last-child) {
@@ -568,7 +567,7 @@ p {
 
 .copyright {
     padding-top: 18px;
-    margin-bottom: 21px;
+    padding-bottom: 21px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     font-weight: normal;
     font-size: 12px;
